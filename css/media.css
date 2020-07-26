@@ -1,0 +1,432 @@
+@media (max-width: 1199px) {
+    header a {
+        font-size: 28px;
+        margin-right: 80px;
+        margin-top: -6px;
+    }
+
+    .second .firstimage {
+        display: block;
+        width: 40%;
+    }
+    .second .text {
+        text-align: right;
+        margin-left: -8%;
+        width: 40%;
+        padding-top: 0;
+      }
+
+    .second .text h1 {
+        padding-top: 20px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .second .text ul li {
+        font-size: 18px;
+        line-height: 37px;
+        list-style-type: none;
+    }
+
+    .second .forma {
+        width: 26%;
+        margin-left: 10px;
+    }
+
+    .second .forma .firstdiv span {
+    position: absolute;
+    top: 27px;
+    right: 25px;
+    font-size: 15px;
+    }
+
+    .second .forma .seconddiv h3 {
+        padding-top: 20px;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .second .forma .seconddiv .tel img {
+        position: absolute;
+        top: 12px;
+        left: 30px;
+    }
+
+    .second .forma .seconddiv .text .imptext {
+        margin-left: 45px;
+        width: 200px;
+        padding-left: 27%;
+    }
+
+    .second .forma .seconddiv .text img {
+        position: absolute;
+        top: -24px;
+        left: 249px;
+    }
+
+    .second .forma .seconddiv .button {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .subheader .subheader_row h3 {
+        font-size: 20px;
+    }
+
+    .subheader .supheader_row img {
+        display: block; 
+        width: 290px;   
+    }
+
+    .form .forma .firstdiv span {
+        position: absolute;
+        top: 28px;
+        right: 30px;
+        font-size: 16px;
+    }
+
+    .form .forma .seconddiv .text img {
+        position: absolute;
+        top: -25px;
+        left: 247px;
+    }
+
+    .form .forma .seconddiv .tel img {
+        position: absolute;
+        top: 12px;
+        left: 30px;
+    }
+
+    .form .forma .seconddiv input {
+        width: 80%;
+    }
+
+    .form .forma .seconddiv .button {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 990px) {
+    header a {
+        font-size: 22px;
+        margin-right: 96px;
+        margin-top: -12px;
+    }
+
+    .second .firstimage {
+        display: block;
+        width: 400px;
+    }
+
+    .second .text {
+        text-align: right;
+        margin-left: -13%;
+        width: 57%;
+        padding-top: 0;
+    }
+
+    .second .text ul li {
+        font-size: 17px;
+        line-height: 40px;        
+    }
+
+    .second .text h1 {
+        padding-top: 60px;
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+
+    .second .text h2 {
+        line-height: 27px;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+
+    .second .forma {
+        width: 50%;
+        margin: 40px auto;
+        min-height: 510px;
+    }
+
+    .second .forma .firstdiv span {
+        position: absolute;
+        top: 6px;
+        right: 61px;
+        font-size: 17px;
+    }
+
+    .second .forma .seconddiv .text img {
+        position: absolute;
+        top: -23px;
+        left: 386px;
+    }
+
+    .second .forma .seconddiv .text .imptext {
+        margin-left: 84px;
+        width: 288px;
+        padding-left: 27%;
+    }
+
+    .second .forma .seconddiv input {
+        width: 80%;
+        padding-left: 10%;
+        height: 45px;
+        margin-left: 37px;
+        margin-bottom: 31px;
+    }
+
+    .second .forma .seconddiv .tel img {
+        left: 46px;
+    }
+
+    .subheader {
+        height: 1200px;
+        margin-top: 550px;
+    }
+
+    .subheader .subheader_row h3 {
+        font-size: 16px;
+    }
+
+    .subheader .supheader_row img {
+        display: block;
+        width: 220px;
+    }
+
+    .subheader img {
+        margin-bottom: 23px;
+    }
+
+    .bestoffer{
+        position: relative;
+        margin-bottom: -240px;
+    }
+    
+    .bestoffer .colleft {
+        position: absolute;
+        top: 60px;
+        left: 220px;
+        text-align: left;
+    }
+
+    .bestoffer ul li {
+        margin-left: 10px;
+        width: 330px;
+        text-align: left;
+    }
+
+    .bestoffer .colright {
+        position: absolute;
+        top: 620px;
+        left: 220px;
+    }
+
+    .bestoffer .ant {
+        display: none;
+    }
+
+    .bestoffer h3 {
+        width: 400px;
+    }
+
+    .priceall {
+        margin-top: 1350px;
+    }
+
+    .form .forma {
+        width: 50%;
+    }
+
+    .form .forma .firstdiv span {
+        right: 75px;
+    }
+
+    .form .forma .seconddiv .text img {
+        left: 339px;
+    }
+    footer .descr {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 145px;
+    }
+
+    header img {
+        width: 45%;
+        margin-left: 120px;
+    }
+
+    header a {
+        font-size: 30px;
+        margin-right: 240px;
+        margin-top: 63px;
+    }
+
+    .second {
+        margin-left: 60px;
+        width: 100%;
+    }
+
+    .second .firstimage img {
+        display: none;
+    }
+
+    .second .firstimage {
+        margin-left: -113px;
+        background-image: url(../img/nameis.png);
+        width: 45%;
+    }
+
+    .second .text {
+        text-align: right;
+        margin-left: -13%;
+        width: 88%;
+        padding-top: 0;
+    }
+
+    .second .forma {
+        margin-right: 195px;
+    }
+
+    .second .forma .firstdiv span {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        font-size: 15px;
+    }
+
+    .second .forma .seconddiv .text .imptext {
+        margin-left: 60px;
+        width: 218px;
+        padding-left: 12%;
+    }
+
+    .second .forma .seconddiv input {
+        margin-left: 26px;
+    }
+
+    .second .forma .seconddiv .tel img {
+        left: 30px;
+    }
+
+    .second .forma .seconddiv .text img {
+        position: absolute;
+        top: -23px;
+        left: 284px;
+    }
+
+    .subheader .supheader_row img {
+        display: block;
+        width: 500px;
+    }
+
+    .bestoffer {
+        position: relative;
+        margin-top: 4200px;
+    }
+
+    .bestoffer .rowcenter {
+        position: absolute;
+        top: 0;
+        left: -30px;
+    }
+
+    .form .forma .firstdiv span {
+        right: 30px;
+    }
+
+    .form .forma .seconddiv .text img {
+        left: 249px;
+    }
+
+    .bestoffer h2 {
+        font-size: 33px;
+    }
+
+    footer .descr {
+        width: 70%;
+    }
+}
+
+@media (max-width: 595px) {
+    body {
+        overflow-x:hidden;
+    } 
+    
+
+
+    header a {
+        margin-right: 150px;
+    }
+
+    .second .firstimage {
+        margin-left: -80px;
+    }
+
+    .second .text {
+        width: 74%;
+    }
+
+    .second .text h1 {
+        margin-right: 18px;
+        font-size: 22px;
+    }
+
+    .second .text ul {
+        padding-right: 30px;
+    }
+
+    .second .text h2 {
+        line-height: 23px;
+        margin-top: -69px;
+        margin-right: 20px;
+        font-size: 19px;
+    }
+
+    .second .forma .seconddiv .text img {
+        display: none;
+    }
+
+    .form .forma .seconddiv .text img {
+        display: none;
+    }
+
+    .subheader {
+        height: 4970px;
+        margin-top: 550px;
+    }
+
+    .subheader .supheader_row img {
+        display: block;
+        width: 110%;
+    }
+
+    .bestoffer {
+        position: relative;
+        margin-top: 380px;
+    }
+
+    .bestoffer h2 {
+        font-size: 26px;
+    }
+
+    .bestoffer .rowcenter {
+        position: absolute;
+        top: 0;
+        left: -130px;
+    }
+
+    .priceall {
+        margin-top: 1350px;
+        width: 100%;
+    }
+
+    .priceall p {
+        font-size: 20px;
+    }
+}
+
+

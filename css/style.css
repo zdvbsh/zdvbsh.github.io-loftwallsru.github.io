@@ -1,0 +1,442 @@
+@charset "UTF-8";
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #575C6E;
+}
+
+header img {
+  width: 82%;
+  margin-left: -13px;
+  float: left;
+}
+
+header .right {
+  position: absolute;
+  top: 24px;
+  right: 30px;
+}
+
+header a {
+  display: block;
+  text-align: right;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 65px;
+}
+
+header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.second {
+  height: 579px;
+}
+
+.second .text {
+  text-align: right;
+  margin-left: -12%;
+  width: 47%;
+  padding-top: 46px;
+}
+
+.second .text h1 {
+  margin-bottom: 95px;
+  font-weight: 400;
+  font-size: 31px;
+}
+
+.second .text ul {
+  margin-bottom: 85px;
+}
+
+.second .text ul li {
+  font-size: 20px;
+  line-height: 40px;
+  list-style-type: none;
+  /*  Параметры фона 
+   /* Смещаем текст вправо */
+}
+
+.second .text ul li img {
+  margin-right: 8px;
+}
+
+.second .text h2 {
+  color: #EB5638;
+  font-weight: normal;
+  line-height: 27px;
+}
+
+.second .forma {
+  width: 26%;
+  margin-left: 10px;
+}
+
+.second .forma .firstdiv {
+  position: relative;
+  display: block;
+  height: 22%;
+  background-color: #192F41;
+  color:#D3BC06;
+  text-align: center;
+}
+
+.second .forma .firstdiv span {
+  position: absolute;
+  top: 25px;
+  right: 42px;
+}
+
+.second .forma .seconddiv {
+  height: 78%;
+  background-color:#5F6885;
+}
+
+.second .forma .seconddiv h3 {
+  color: #fff;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.second .forma .seconddiv input {
+  width: 80%;
+  padding-left: 10%; 
+  height: 45px; 
+  margin-left: 26px;
+  margin-bottom: 31px;
+}
+
+.second .forma .seconddiv .text .imptext {
+  margin-left: 61px;
+  width: 237px;
+  padding-left: 20%;
+}
+
+.second .forma .seconddiv .text {
+  position: relative;
+}
+
+.second .forma .seconddiv .text img{
+  position: absolute;
+  top: 22px;
+  left: 310px;
+}
+
+.second .forma .seconddiv .tel {
+  position: relative;
+  margin-bottom: -24px;
+}
+
+.second .forma .seconddiv .tel img{
+  position: absolute;
+  top: 12px;
+  left: 33px;
+}
+
+.second .forma .seconddiv .button {
+  background-color:#FFC80B;
+  border: none;
+  font-size: 23px;
+  padding-right: 30px;
+}
+
+.second .forma .seconddiv p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.second .forma .seconddiv .span {
+  color: #FFC80B;
+  font-size: 16px;
+  text-align: center;
+}
+
+.subheader {  
+  height: 1500px;
+  background-color:#EFEEEA;
+}
+
+.subheader .subheader_row {
+  padding-top: 60px;
+}
+
+.subheader .subheader_row img {
+  display: block;
+  margin: 0 auto;
+}
+
+.subheader .subheader_row h3 {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+.subheader .supheader h2 {
+  padding-top: 30px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.subheader .supheader hr {  
+  content: "";
+  margin: 20px auto 60px auto;
+  height: 4px;
+  width: 60px;
+  display: block;
+  background: #ffc600;
+  border: none;
+}
+
+.subheader img {
+  margin-bottom: 33px;
+  margin-left: -30px;
+}
+
+.bestoffer {
+  margin-top: 70px;
+}
+
+.bestoffer h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.bestoffer h3 {
+  padding-left: 45px;
+  margin-top: -35px;
+  font-size: 23px;
+  line-height: 26px;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+.bestoffer .ant {
+  padding-top: 32px;
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.bestoffer .right {
+  text-align: right;
+}
+
+.bestoffer ul li {
+  margin-top: 36px;
+  font-size: 17px;
+  list-style-type: none;
+  letter-spacing: -1px;
+}
+
+.priceall {
+  background-color: #EFEEEA;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.priceall h2, h3 {
+  color: #0079B7;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.priceall h2 {
+  margin-top: 50px;
+}
+
+.priceall h3 {
+  font-size: 18px;
+}
+
+.priceall hr {  
+  content: "";
+  margin: 20px auto 20px auto;
+  height: 4px;
+  width: 60px;
+  display: block;
+  background: #ffc600;
+  border: none;
+}
+
+.priceall p {
+  font-size: 18px;
+}
+
+.form {
+  min-height: 579px;
+  margin: 60px auto;
+  margin-top: 40px;
+}
+
+.form .forma {
+  width: 28%;
+  margin: 0 auto;
+}
+
+.form .forma .firstdiv {
+  position: relative;
+  display: block;
+  height: 28%;
+  background-color: #192F41;
+  color:#D3BC06;
+  text-align: center;
+}
+
+.form .forma .firstdiv span {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  font-size: 18px;
+}
+
+.form .forma .seconddiv {
+  height: 105%;
+  background-color:#5F6885;
+}
+
+.form .forma .seconddiv h3 {
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.form .forma .seconddiv input {
+  width: 84%;
+  height: 45px;
+  padding-left: 10%;
+  margin-left: 26px;
+  margin-bottom: 41px;
+}
+
+.form .forma .seconddiv .text {
+  position: relative;
+}
+
+.form .forma .seconddiv .text img{
+  position: absolute;
+  top: -25px;
+  left: 298px;
+}
+
+.form .forma .seconddiv .tel {
+  position: relative;
+  margin-bottom: -24px;
+}
+
+.form .forma .seconddiv .tel img{
+  position: absolute;
+  top: 12px;
+  left: 33px;
+}
+
+.form .forma .seconddiv .button {
+  background-color:#FFC80B;
+  border: none;
+  font-size: 23px;
+  padding-right: 30px;
+}
+
+.form .forma .seconddiv p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.form .forma .seconddiv .span {
+  color: #FFC80B;
+  font-size: 16px;
+  text-align: center;
+}
+
+.sign {
+  min-height: 428px;
+  background-image: url(../img/bgsign.png); /* Путь к фоновому рисунку */
+  /*background-position: left bottom;  Положение фона */
+  background-repeat: repeat;
+}
+
+.sign img {
+  display: block;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+footer {
+  display: block;
+  background-color: #595C6D;
+  min-height: 380px;
+}
+
+footer .descr {
+  width: 30%; 
+  margin: 0 auto; 
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer .descr h3 {
+  display: block;
+  color: #fff;
+  margin-right: 155px;
+  font-size: 22px;
+}
+
+footer ul li {
+  text-align: left;
+  list-style-type: none;
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+footer ul li span {
+  margin-left: 42px;
+}
+
+footer ul li img {
+  padding-right: 20px;
+}
+
+footer .descr .socblock {
+  margin-left: 72px;
+}
+
+footer .descr .socblock div {
+  float: left;
+  border: 1px solid #636777;
+  padding: 17px;
+  margin-right: 3px;
+}
+
+
+
